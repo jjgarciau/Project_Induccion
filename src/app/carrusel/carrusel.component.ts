@@ -8,9 +8,15 @@ import { Component } from '@angular/core';
 })
 export class CarruselComponent {
   images: string[] = [
-    'img1.jpeg', // Cambia estas rutas por las de tus imágenes
+    'img1.jpg', // Cambia estas rutas por las de tus imágenes
     'img2.jpeg',
-    'img3.jpeg'
+    'Img3.jpeg',
+  ];
+
+  descripcion: string[] = [
+    'Con prosperidad',
+    'Con honor',
+    'Con un buen ambiente',
   ];
 
   currentIndex: number = 0;
